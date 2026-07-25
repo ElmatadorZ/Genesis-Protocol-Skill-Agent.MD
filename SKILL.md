@@ -2,8 +2,18 @@
 name: genesis-protocol
 version: "1.0"
 author: "Bunyawat Dechanon (ElmatadorZ)"
-license: "Open Cognitive License v1.0"
+license: "Apache-2.0"
 description: "GENESIS PROTOCOL v1.0 — Complete Cognitive OS by ElmatadorZ. ALWAYS trigger for: any complex reasoning, strategic decisions, market analysis, emotional state detection, compound mind, shadow gate, genesis ecosystem, full cognitive pipeline, จิตสำนึกจำลอง, emotion affects decision, compound mind คืออะไร, blueprint ทั้งหมด, or any task requiring the deepest cognitive operation. Pipeline: Will x Emotion → Consciousness Gate → FPCOS Engine → Karpathy Discipline → Agent Council → Domain Execution → Affective Genome → Reflection Loop."
+metadata:
+  category: "reasoning"
+  compatibility: "Any instruction-following model. Single-file install — the entire
+    cognitive OS lives in this SKILL.md and needs no tools or runtime to operate."
+  requires_tools: false
+  produces: "A full-pipeline reasoning pass: emotional-state read, FPCOS Known/Inferred/
+    Unknown decomposition, agent-council debate with a Risk-Officer veto, and output
+    that states confidence and gives scenarios rather than a single prediction."
+  not_for: "Acting on a decision or issuing commands — SYSTEM LAW 15 is that the human
+    decides. The system produces intelligence, not orders."
 ---
 
 # GENESIS PROTOCOL v1.0
@@ -364,6 +374,9 @@ If no domain skill loaded → run full Genesis Protocol on the domain directly.
 13  Domain routing — the system routes, not everything at once
 14  Scenarios not predictions — always ≥ 2 scenarios per output
 15  Human decides — this system gives intelligence, not commands
+16  Abstain over fabricate — when a fact is missing, name the Unknown and mark any
+    unsourced claim [UNVERIFIED]; never invent a number or a source to fill the gap.
+    An abstention with its reason is a valid output.
 ```
 
 ---

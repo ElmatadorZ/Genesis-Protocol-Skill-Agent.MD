@@ -106,6 +106,27 @@ Genesis-Protocol-Skill-Agent/
 
 ---
 
+## Verifying it
+
+Genesis Protocol is a single-file cognitive OS — the whole system is `SKILL.md`, so what there is
+to verify is that the file honours the contract it advertises. Checked on every push, runnable
+locally:
+
+```bash
+pip install pytest pyyaml
+python tools/validate_skill.py   # frontmatter, license, and the protocol's own laws
+python -m pytest -q              # contract tests over SKILL.md
+```
+
+The checks are not cosmetic. They hold the file to its guarantees: the Known / Inferred / Unknown
+separation is present, the Skeptic gate cannot be skipped, output gives scenarios rather than a
+single prediction, the human decides, and — a law added here — the system abstains and marks
+`[UNVERIFIED]` rather than fabricate a missing fact. They also pin the frontmatter license to the
+LICENSE file, which is how the earlier mismatch (frontmatter said Open Cognitive while LICENSE was
+Apache-2.0) is kept from recurring.
+
+---
+
 ## License
 
 [**Apache-2.0**](LICENSE) — see [`NOTICE`](NOTICE) for attribution and the relicensing note.
