@@ -1,3 +1,16 @@
+> ### 📦 Superseded — read this first
+>
+> This was the reference Skill-Agent build of Genesis Protocol. It is **no longer
+> developed**, and it duplicated the canonical repo:
+>
+> - **The protocol itself** → **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)**
+> - **The control layer that grew out of it** → **[Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS)**
+>
+> Two repos for one protocol was a mistake in how the work was published, not a sign
+> there were two protocols. `v1.0.0` is tagged here if you need to pin it.
+
+---
+
 <div align="center">
 
 # GENESIS PROTOCOL
